@@ -1,7 +1,21 @@
+/** 
+ * node modules
+ */
+
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import './index.css'
+
+/** 
+ * components
+ */
 import App from './App.jsx'
+
+/** 
+ * nCSS link
+ */
+
+import './index.css'
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
